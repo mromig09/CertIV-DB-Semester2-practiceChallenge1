@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="a864e68e-55e5-4d8a-a936-f914029db84c" ChangeDateTime="11/18/2019 22:56:06">
+    <Property Name="ElementName" Value="[dbo].[Procedure].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Procedure]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="procedureID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ead73d96-1936-43ca-bf18-6c0a940ef5c1" ChangeDateTime="11/18/2019 22:57:11">
+    <Property Name="ElementName" Value="[dbo].[Owner].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Owner]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ownerID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="557444aa-9d2c-41fd-802b-fefa66303fda" ChangeDateTime="11/18/2019 22:59:33">
+    <Property Name="ElementName" Value="[dbo].[Treatment].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Treatment]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="procedureID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b0c07074-bb7a-4e52-8e85-f29c80abf257" ChangeDateTime="11/18/2019 23:02:28">
+    <Property Name="ElementName" Value="[dbo].[Treatment].[date]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Treatment]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="petName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7527848c-7963-4864-bcf1-31c6bf4dab52" ChangeDateTime="11/18/2019 23:03:22">
+    <Property Name="ElementName" Value="[dbo].[Pet].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Pet]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ownerId" />
+  </Operation>
+</Operations>
